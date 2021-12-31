@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+    color:white;
+    background-image: url('src/back.png');
+    background-repeat:no-repeat;
+    background-size: stretch;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+.row {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 25px;
+    padding: 4px;
+    margin:4px;
+    color:black;
+}
+
+div.arrow > img {
+    width:75px;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+div.arrow > img:hover {
+    cursor: pointer;
+}
+
+#speech > p {
+    font-size: 3rem;
+    margin: 1px 4px;
+    user-select: none;
+}
+
+.holder {
+    margin:16px;
+    padding:8px;
+}
+
+.holder > h1 {
+    text-align: center;
+}
+
+#speech_holder {
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 25px;
+    border:5px solid red;
+    color:red;
+}
+
+#prep_holder {
+    background-color: rgba(0, 255, 0, 0.5);
+    border-radius: 25px;
+    border:5px solid rgb(0, 255, 0);
+    color:rgb(0, 255, 0);
+}

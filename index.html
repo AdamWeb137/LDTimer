@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LD Timer</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="structs.js"></script>
+        <script src="timer.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div id="content">
+            <div class="row flex">
+                <h1>LD Timer</h1>
+            </div>
+            <div id="speech_holder" class="holder">
+                <h1>Speech</h1>
+                <timer-div id="speech_time"></timer-div>
+                <div class="row flex">
+                    <div class="card arrow" id="left_arrow"><img src="src/left.png"></div>
+                    <div class="card flex" id="speech"><p>AC</p></div>
+                    <div class="card arrow" id="right_arrow"><img src="src/right.png"></div>
+                </div>
+            </div>
+            <div id="prep_holder" class="holder">
+                <h1>Prep</h1>
+                <timer-div id="prep_time"></timer-div>
+            </div>
+        </div>
+    </body>
+</html>
